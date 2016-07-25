@@ -7,9 +7,9 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 ## [C++::FLAGS]
 ####################################################################################################
 IF(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
-	SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -fno-rtti")
+	SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall")
 ELSEIF(CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
-	SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -fno-rtti")
+	SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall")
 ENDIF()
 
 ####################################################################################################

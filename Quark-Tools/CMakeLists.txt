@@ -1,7 +1,13 @@
 ####################################################################################################
+## [C++::DEPENDENCIES]
+####################################################################################################
+ADD_SUBDIRECTORY(${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/Assimp)
+
+####################################################################################################
 ## [C++::INCLUDES]
 ####################################################################################################
-INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/ASSIMP)
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/Assimp/include)
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/Dependencies/GLM)
 
 ####################################################################################################
 ## [C++::MODULES]

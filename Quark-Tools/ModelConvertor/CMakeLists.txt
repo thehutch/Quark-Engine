@@ -1,17 +1,24 @@
 ####################################################################################################
 ## [C++::PROJECT]
 ####################################################################################################
-PROJECT(Quark-GL CXX)
+PROJECT(Quark-ModelConvertor CXX)
 
 ####################################################################################################
 ## [C++::FILES]
 ####################################################################################################
 
-FILE(GLOB_RECURSE CORE_HEADER_FILES "${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp")
-FILE(GLOB_RECURSE CORE_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+FILE(GLOB_RECURSE TOOL_MC_HEADER_FILES "${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp")
+FILE(GLOB_RECURSE TOOL_MC_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
 
 ####################################################################################################
 ## [C++::EXECUTABLE]
 ####################################################################################################
 
-ADD_LIBRARY(${PROJECT_NAME} SHARED ${CORE_HEADER_FILES} ${CORE_SOURCE_FILES})
+ADD_EXECUTABLE(${PROJECT_NAME} ${TOOL_MC_HEADER_FILES} ${TOOL_MC_SOURCE_FILES})
+
+####################################################################################################
+## [C++::LINKER]
+####################################################################################################
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} assimp stdc++fs)

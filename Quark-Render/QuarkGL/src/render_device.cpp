@@ -1,8 +1,8 @@
 #include "render/render_device.hpp"
 #include <iostream>
 
-std::unique_ptr<QE::Render::RenderDevice> QE::Render::CreateRenderDevice()
+QE_API QE::Render::RenderDevice* CreateRenderDevice()
 {
-	std::cout << "QuarkGL: Creaed RenderDevice" << std::endl;
+	std::cout << "Created Render Device" << std::endl;
 	return nullptr;
 }

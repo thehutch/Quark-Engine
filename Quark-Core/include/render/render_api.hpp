@@ -13,6 +13,13 @@ namespace QE
 			VULKAN
 		};
 
+		/**
+		 * Converts the specified render API to a string
+		 *
+		 * @param api The API to get the name of
+		 *
+		 * @return The API name, "Unknown" if not recognised
+		 */
 		auto GetAPIName(RenderAPI api)
 		{
 			switch (api)

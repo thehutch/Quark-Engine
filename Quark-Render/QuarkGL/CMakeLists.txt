@@ -7,11 +7,11 @@ PROJECT(Quark-GL CXX)
 ## [C++::FILES]
 ####################################################################################################
 
-FILE(GLOB_RECURSE CORE_HEADER_FILES "${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp")
-FILE(GLOB_RECURSE CORE_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+FILE(GLOB_RECURSE GL_HEADER_FILES "${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp")
+FILE(GLOB_RECURSE GL_SOURCE_FILES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
 
 ####################################################################################################
 ## [C++::EXECUTABLE]
 ####################################################################################################
 
-ADD_LIBRARY(${PROJECT_NAME} SHARED ${CORE_HEADER_FILES} ${CORE_SOURCE_FILES})
+ADD_LIBRARY(${PROJECT_NAME} SHARED ${GL_HEADER_FILES} ${GL_SOURCE_FILES})

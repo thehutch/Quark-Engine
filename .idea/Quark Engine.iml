@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Debug/src/stack_allocator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Debug/include/debug.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Debug/include/memory_block.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Debug/include/stack_allocator.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Debug/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/src/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/include/quark.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/include/render/buffer/buffer.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/include/render/buffer/buffer_type.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/include/render/render_api.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/include/render/render_device.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/include/render/render_context.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/include/application/application.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Core/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Render/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Render/QuarkGL/src/render_device.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Render/QuarkGL/include/quark_gl.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Quark-Render/QuarkGL/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

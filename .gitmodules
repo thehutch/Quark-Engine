@@ -1,0 +1,6 @@
+[submodule "Quark-Tools/Dependencies/Assimp"]
+	path = Quark-Tools/Dependencies/Assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "Quark-Tools/Dependencies/GLM"]
+	path = Quark-Tools/Dependencies/GLM
+	url = https://github.com/g-truc/glm.git
